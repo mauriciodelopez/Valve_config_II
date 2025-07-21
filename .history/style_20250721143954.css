@@ -1,0 +1,9 @@
+/* style.css */
+
+/* Custom font import (if not using Bootstrap's default) */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* You can add more custom styles here if Bootstrap's defaults aren't enough,
+   but for a clean Bootstrap look, often minimal custom CSS is needed. */

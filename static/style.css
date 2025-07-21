@@ -1,0 +1,24 @@
+/* style.css */
+
+/* Custom font import (if not using Bootstrap's default) */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Ensure the main container has rounded corners on all sides */
+.container.rounded-3 {
+    border-radius: 0.5rem !important; /* Adjust if needed */
+}
+
+/* Remove bottom rounding from the header when it's part of a column that's not the last */
+.rounded-lg-end-0 {
+    border-bottom-right-radius: 0 !important;
+}
+
+/* Adjust 3D container height for very small screens if needed, though min-height and 50vh should cover most cases */
+@media (max-width: 575.98px) { /* Extra small devices (portrait phones) */
+    #container3D {
+        min-height: 250px; /* Slightly smaller minimum height for very narrow screens */
+        height: 40vh; /* Adapt to viewport height */
+    }
+}
