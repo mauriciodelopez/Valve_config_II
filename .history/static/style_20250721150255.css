@@ -22,12 +22,3 @@ body {
         height: 40vh; /* Adapt to viewport height */
     }
 }
-
-/* New CSS for logo animation */
-.logo-animated {
-    transition: transform 0.3s ease-in-out; /* Smooth transition for transform property */
-}
-
-.logo-animated:hover {
-    transform: scale(1.05); /* Slightly enlarge the logo on hover */
-}
